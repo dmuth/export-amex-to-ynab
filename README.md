@@ -8,8 +8,16 @@ little app to conver the AmEx CSV format to the format that YNAB needs, and thou
 I would share it here.
 
 
-# Resources
+## Bugs
+
+- Sometimes YNAB has difficulty parsing transaction dates, but it will ask you to confirm
+- Sometimes YNAB doesn't correctly de-dup transactions.  In that case, just sort by date, look for duplicate numbers, and delete one.
+
+
+
+## Resources
 
 - <a href="https://docs.youneedabudget.com/article/921-formatting-csv-file">YNAB documentation on importing CSV files</a>
+
 
 
