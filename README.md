@@ -18,6 +18,8 @@ I would share it here.
 - Choose CSV and do NOT check the checkbox
 - Transactions will now be downloaded
 
+<img src="./img/amex-1.png" height="250" alt="Amex Recent Activity" /> <img src="./img/amex-2.png" height="250" alt="Amex download"/> <img src="./img/amex-3.png" height="250" alt="Amex download CSV"/>
+
 
 ## Usage
 
@@ -39,7 +41,11 @@ a CSV file that YNAB can understand.
 - Choose the account to import to and click the "Import" button.
 - The transactions will be uploaded and you should now see them in YNAB.
 
-
+<img src="./img/ynab-1.png" width="400" alt="" />
+<img src="./img/ynab-2.png" width="400" alt="" />
+<img src="./img/ynab-3.png" width="400" alt="" />
+<img src="./img/ynab-4.png" width="400" alt="" />
+<img src="./img/ynab-5.png" width="400" alt="" />
 
 
 ## Bugs
