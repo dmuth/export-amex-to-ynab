@@ -12,6 +12,10 @@ I would share it here.
 
 `./convert-amex-to-ynab.py ./sample.csv`
 
+Or, to run the script without cloning this repo:
+
+`curl -s https://raw.githubusercontent.com/dmuth/export-amex-to-ynab/master/convert-amex-to-ynab.py | python3 - ./sample.csv`
+
 
 ## Bugs
 
