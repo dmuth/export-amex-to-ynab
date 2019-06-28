@@ -8,6 +8,11 @@ little app to conver the AmEx CSV format to the format that YNAB needs, and thou
 I would share it here.
 
 
+## Usage
+
+`./convert-amex-to-ynab.py ./sample.csv`
+
+
 ## Bugs
 
 - Sometimes YNAB has difficulty parsing transaction dates, but it will ask you to confirm
