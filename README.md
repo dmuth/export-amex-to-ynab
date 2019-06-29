@@ -1,5 +1,5 @@
 
-# Covnert American Express CSVs to YNAB
+# Convert American Express CSVs to YNAB
 
 For my personal finance, I use an app called <a href="https://ynab.com/referral/?ref=PreCBGSWL1digXGL&utm_source=customer_referral">You Need A Budget</a>, or YNAB.
 It works pretty well for my needs, but seems to regularly have problems importing 
