@@ -17,8 +17,6 @@ I would share it here.
 - Choose CSV and do NOT check the checkbox
 - Transactions will now be downloaded
 
-<img src="./img/amex-1.png" height="250" alt="Amex Recent Activity" /> <img src="./img/amex-2.png" height="250" alt="Amex download"/> <img src="./img/amex-3.png" height="250" alt="Amex download CSV"/>
-
 
 ## Usage
 
