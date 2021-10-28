@@ -12,9 +12,8 @@ I would share it here.
 
 - Log into Amex
 - Click on "Statements and Activity"
-- Click on "Recent Activity" dropdown and choose dates for which you'd like to download transactions.
+- Click on "Recent Transactiosn"
 - Click the download button second from the right
-- Click "Current View"
 - Choose CSV and do NOT check the checkbox
 - Transactions will now be downloaded
 

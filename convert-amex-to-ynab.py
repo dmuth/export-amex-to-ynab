@@ -20,8 +20,15 @@ print("Date, Payee, Memo, Amount")
 #
 # Loop through rows and print in the format YNAB wants.
 #
+beenhere = False
 for row in csv:
 	
+	#print(f"ROW: {row}") # Debugging
+
+	if not beenhere:
+		beenhere = True
+		continue
+
 	#
 	# The date is in the format "06/01/2019  Sat", and we just
 	# want the first part of that.
@@ -30,13 +37,15 @@ for row in csv:
 	fields = date.split(" ")
 	date = fields[0]
 
-	payee = row[2]
+	payee = row[1]
+	amount = row[2]
 
 	#
 	# Flip the sign on the amount because charges are expenses, not income.
 	#
-	amount = "{:.2f}".format(float(row[7]) * -1)
+	amount = "{:.2f}".format(float(amount) * -1)
 
+	#print(f"ROW: {row}") # Debugging
 	print('{},"{}",,{}'.format(date, payee, amount))
 
 f.close()
