@@ -4,7 +4,7 @@
 For my personal finance, I use an app called <a href="https://ynab.com/referral/?ref=PreCBGSWL1digXGL&utm_source=customer_referral">You Need A Budget</a>, or YNAB.
 It works pretty well for my needs, but seems to regularly have problems importing 
 transactions from my American Express card.  In a fit of frustration, I built a 
-little app to conver the AmEx CSV format to the format that YNAB needs, and thought 
+little app to convert the AmEx CSV format to the format that YNAB needs, and thought 
 I would share it here.
 
 
@@ -12,7 +12,7 @@ I would share it here.
 
 - Log into Amex
 - Click on "Statements and Activity"
-- Click on "Recent Transactiosn"
+- Click on "Recent Transactions"
 - Click the download button second from the right
 - Choose CSV and do NOT check the checkbox
 - Transactions will now be downloaded
@@ -26,7 +26,7 @@ Or, to run the script without cloning this repo:
 
 `curl -s https://raw.githubusercontent.com/dmuth/export-amex-to-ynab/master/convert-amex-to-ynab.py | python3 - ./sample.csv > ynab.csv`
 
-Either invocation will read a CSV file that you downloaded form AmEx and write to stdout
+Either invocation will read a CSV file that you downloaded from AmEx and write to stdout
 a CSV file that YNAB can understand.
 
 
@@ -48,7 +48,7 @@ a CSV file that YNAB can understand.
 ## Bugs
 
 - Sometimes YNAB has difficulty parsing transaction dates, but it will ask you to confirm
-- Sometimes YNAB doesn't correctly de-dup transactions.  In that case, just sort by date, look for duplicate numbers, and delete one.
+- Sometimes YNAB doesn't correctly de-dupe transactions.  In that case, just sort by date, look for duplicate numbers, and delete one.
 
 
 
